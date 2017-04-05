@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es_ES">
+<head>
+	<meta charset="utf-8"/>
+	<title>Toni Serra TimeTable</title>
+	<style>
+		body {
+			background-color: white;
+		}
+		td {
+			text-align: center;
+		}
+		#horari {
+			background-color: orange;
+			color: black;
+			width: 60;
+		}
+		.dies {
+			width: 200px;
+			background-color: black;
+			color: white;
+		}
+		.hores {
+			height: 60px;
+			background-color: black;
+			color: white;			
+		}
+		.lmg {
+			background-color: tomato;
+			color: white;
+		}
+		.iso {
+			background-color: navy;
+			color: yellow;
+		}
+		.gbd {
+			background-color: orange;
+			color: purple;
+		}
+		.fol {
+			background-color: grey;
+			color: lightgrey;
+		}
+		.pax {
+			background-color: magenta;
+			color: navy;
+		}
+		.fom {
+			background-color: rgb(255, 255, 0);
+			color: red;
+		}
+	</style>
+</head>
+<body>
+<h1 align="center">Horari Antoni Serra Gual</h1>
+
+	<table align="center" border="3">
+		<tr >
+			<td id="horari">Horari</td>
+			<td class="dies">Dilluns</td>
+			<td class="dies">Dimarts</td>
+			<td class="dies">Dimecres</td>
+			<td class="dies">Dijous</td>
+			<td class="dies">Divendres</td>
+		</tr>
+		<tr >
+			<td class="hores">15:20<br>16:10</td>
+			<td class="lmg" rowspan="2">Llenguatge de Marques<br>i Sistemes de Gestió<br>de Informació</td>
+			<td class="iso" rowspan="2">Implementació<br>de Sistemes<br>Operatius en Xarxa</td>
+			<td class="gbd" rowspan="2">Sistemes gestors<br>de Base de Dades</td>
+			<td class="iso" >Implementació<br>de Sistemes<br>Operatius en Xarxa</td>
+			<td class="fol" rowspan="2">Formació i Orientació<br>Laboral</td>
+		</tr>
+		<tr >
+			<td class="hores">16:10<br>17:00</td>
+			<td class="gbd" rowspan="3">Sistemes gestors<br>de Base de Dades</td>
+		</tr>
+		<tr >
+			<td class="hores">17:20<br>18:10</td>
+			<td class="iso" rowspan="2">Implementació<br>de Sistemes<br>Operatius en Xarxa</td>
+			<td class="pax">Planificació<br>i Administració<br>de Xarxes</td>
+			<td class="lmg" rowspan="2">Llenguatge de Marques<br>i Sistemes de Gestió<br>de Informació</td>
+			<td class="gbd" >Sistemes gestors<br>de Base de Dades</td>
+		</tr>
+		<tr >
+			<td class="hores">18:10<br>19:00</td>
+			<td class="gbd" rowspan="2">Sistemes gestors<br>de Base de Dades</td>
+			<td class="fom" rowspan="3">Fonaments<br>de Hardware</td>
+			</tr>
+		<tr >
+			<td  class="hores">19:20<br>20:10</td>
+			<td  class="pax" rowspan="2">Planificació<br>i Administració<br>de Xarxes</td>
+			<td  class="iso" rowspan="2">Implementació<br>de Sistemes<br>Operatius en Xarxa</td>
+			<td  class="pax" rowspan="2">Planificació<br>i Administració<br>de Xarxes</td>
+		</tr>
+		<tr >
+			<td  class="hores">20:10<br>21:00</td>
+			<td class="fol">Formació i Orientació<br>Laboral</td>
+		</tr>
+	</table>
+</body>
+</html>
