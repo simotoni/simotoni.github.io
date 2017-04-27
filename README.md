@@ -1,2 +1,3 @@
 # hello-world
-repository per projecte simo i toni
+Implementació de sistemes operatius
+Repositori per projecte simo i toni
